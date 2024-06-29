@@ -1,0 +1,116 @@
+#include <stdio.h>
+
+int main() {
+
+  // type 01
+
+  /*for ( int i = 0; i < 100; i++ ) // outer loop
+    {
+        //printf("i = %d -> ",i); // i er value dekhanor jonno aita use kora hoise
+      for ( int j = 1; j < 6; j++ ) // inner loop
+        {
+          //printf("%d ", j);
+
+        }
+
+      printf("\n");
+    }
+
+  return 0;
+*/
+
+
+  //type 02
+
+  /*for ( int i = 0; i < 10; i++ ) // outer loop
+    {
+      for ( int j = 1; j < 6; j++ ) // inner loop
+        {
+          printf("*");
+        }
+
+      printf("\n");
+    }*/
+
+
+    //Type 03
+
+    /*for(int i = 0; i < 10; i++)
+    {
+        for(int j = 0; j < 10; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }*/
+
+    //Type 04
+
+    /*for(int i = 0; i < 12; i++)
+    {
+        for(int j = 0; j < 10; j++)
+        {
+          for (int k = 0; k < 10; k++)
+            {
+              printf("* ");
+            }
+        }
+
+        printf("\n");
+    }*/
+
+
+    //Type 05
+
+    /*int max;
+  printf("Enter a numbr: ");
+  scanf("%d", &max);
+
+  for (int i = 0; i < max; i++) // outer loop
+  {
+    for (int j = 0; j < max; j++) // inner loop
+    {
+      printf("* ");
+    }
+
+    printf("\n");
+  }*/
+
+
+  //Type 06
+  /*int main() {
+
+  int max;
+  printf("Enter a numbr: ");
+  scanf("%d", &max);
+
+  for (int i = 0; i < max; i++) // outer loop
+  {
+    for (int j = 0; j < max; j++) // inner loop
+    {
+      printf("* ");
+    }
+
+    printf("\n");
+  }
+  printf("\nYou entered %d so there are %d starts in each row.", max, max);*/
+
+
+    //Type 07
+  /*  int max;
+  printf("Enter a numbr: ");
+  scanf("%d", &max);
+
+  for (int i = 0; i < max; i++) // outer loop row
+  {
+    for (int j = 0; j <= i; j++) // inner loop coloum
+    {
+      printf("* ");
+    }
+
+    printf("\n");
+  }
+  printf("\nYou entered %d so there are %d starts in each row.", max, max);
+
+  return 0;*/
+}
